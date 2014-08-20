@@ -1,0 +1,151 @@
+kde-wallpapers (4:4.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 20 Aug 2014 05:34:13 +0200
+
+kde-wallpapers (4:4.13.3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 22 Jul 2014 10:29:34 +0200
+
+kde-wallpapers (4:4.12.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:23:57 +0200
+
+kde-wallpapers (4:4.12.3-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:05:43 +0100
+
+kde-wallpapers (4:4.12.2-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump kde-sc-dev-latest build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:31:37 +0100
+
+kde-wallpapers (4:4.11.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ Pino Toscano ]
+  * Remove the kde-default.png symlink, as it is used only in kubuntu, and needs
+    to be manually handled depending on the current default wallpaper.
+
+  [ Maximiliano Curia ]
+  * Bump Standards-Version to 3.9.5, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 26 Jan 2014 19:58:02 +0100
+
+kde-wallpapers (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Fix path of the default wallpaper (Closes: #726583).
+
+  [ Maximiliano Curia ]
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 13:18:34 +0100
+
+kde-wallpapers (4:4.11.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Oct 2013 21:31:08 +0200
+
+kde-wallpapers (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 12:41:41 +0200
+
+kde-wallpapers (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update vcs fields.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 09:21:54 +0200
+
+kde-wallpapers (4:4.10.2-2) experimental; urgency=low
+
+  [ Pino Toscano ]
+  * Correctly set Elarun as the default wallpaper, as it is set upstream.
+    Since Ariya and Elarun swaps places between kde-wallpapers and
+    kde-wallpapers-default, set proper breaks/replaces in both against
+    previous versions of the other.
+
+  [ Maximiliano Curia ]
+  * Sort the generated part of the copyright to ease maintenance.
+  * Bump debhelper dependency to 9.
+  * Add myself to the uploaders list.
+  * Reshuffle build-dependencies.
+  * Bump kdelibs-dev dependency to 4:4.10.
+  * Bump Standards-Version to 3.9.4, no further changes needed.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 May 2013 01:04:50 +0200
+
+kde-wallpapers (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Bump build-deps.
+  * Update uploaders.
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 22:35:04 +0000
+
+kde-wallpapers (4:4.8.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Team upload.
+
+  [ Eshat Cakar ]
+  * Add watch file.
+  * Bump build-dependency of kde-sc-dev-latest to version 4:4.8.4.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 09 Jun 2012 15:47:13 +0300
+
+kde-wallpapers (4:4.8.3-1) experimental; urgency=low
+
+  * New upstream release.
+  * Team upload.
+
+  [ Eshat Cakar ]
+  * Switch to Ariya, the new default wallpaper.
+  * Bump build-dependency of kdelibs5-dev to version 4:4.8.
+  * Bump build-dependency of kde-sc-dev-latest to version 4:4.8.3.
+  * Bump Standards-Version to 3.9.3. No further changes.
+
+  [ Modestas Vainius ]
+  * Add myself to uploaders.
+  * No unofficial revisions in debian/control.
+  * Improve descriptions.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 27 May 2012 02:32:32 +0300
+
+kde-wallpapers (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Mar 2012 18:12:40 +0100
+
+kde-wallpapers (4:4.7.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ Eshat Cakar ]
+  * Add myself to uploaders.
+  * Bump kde-sc-dev-latest dependency to 4.7.4.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:38:20 +0100
+
+kde-wallpapers (4:4.7.2-1) experimental; urgency=low
+
+  * Initial release. 
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:43:06 -0300
