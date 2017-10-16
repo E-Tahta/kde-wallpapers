@@ -1,3 +1,9 @@
+kde-wallpapers (4:4.14.0-2pardus1) unstable; urgency=medium
+
+  * Remove kdm everywhere
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 16 Oct 2017 17:25:18 +0300
+
 kde-wallpapers (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
