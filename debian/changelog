@@ -1,3 +1,9 @@
+kde-wallpapers (4:4.14.0-2pardus2) stable; urgency=medium
+
+  * Pardus CI integration
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Thu, 13 Sep 2018 14:46:04 +0300
+
 kde-wallpapers (4:4.14.0-2pardus1) unstable; urgency=medium
 
   * Remove kdm everywhere
